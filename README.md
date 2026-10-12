@@ -1,5 +1,29 @@
 # 건국글로컬 - 바이브 코딩 교욱
 
+```
+| 산업 소품 Three.js 구성  |                    |
+| ------------------ | ------------------ |
+| 작업대                | `BoxGeometry`      |
+| 철제 캐비닛             | Box + Box          |
+| 파이프                | `CylinderGeometry` |
+| 밸브                 | Cylinder + Torus   |
+| 드럼통                | Cylinder           |
+| 소화기                | Cylinder + Sphere  |
+| 가스통                | Cylinder + Sphere  |
+| 안전 펜스              | Box 반복             |
+| 팔레트                | Box 반복             |
+| 공구함                | Box                |
+| 배전함                | Box + Extrude      |
+| 컨베이어               | Box + Cylinder     |
+| 산업용 램프             | Cylinder + Cone    |
+| 저장 탱크              | Cylinder + Sphere  |
+| I-Beam             | `ExtrudeGeometry`  |
+| 회전대칭 부품            | `LatheGeometry`    |
+
+위 목록의 부품을 제작하고, 제작한 소품을 선택할 수 있는 UI를 목록의 형태로 조회하고 선택하면 미리보기 할 수 있도록 구성해줘. 작업 중간에 결정해야 할 사항이 있다면 꼭 질문해줘.
+```
+
+
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 source ~/.zshrc
