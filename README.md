@@ -7,7 +7,6 @@ nvm -v
 nvm install node
 ```
 
-```markdown
 # AGENTS.md
 
 ## 1. Project Overview
@@ -1398,4 +1397,3 @@ Parameterized Asset Generator
 ```
 
 방식을 우선한다.
-```
